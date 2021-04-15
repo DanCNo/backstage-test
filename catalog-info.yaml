@@ -16,7 +16,7 @@ metadata:
   name: teststarwars-graphql
   description: SWAPI GraphQL Schema
   links:
-    - url: https://github.com/graphql/swapi-graphql
+    - url: https://swapi-graphql.netlify.app/.netlify/functions/index
       title: GitHub Repo
       icon: github
 spec:
