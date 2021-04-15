@@ -1,19 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: starwars-graphql-test
+  name: teststarwars-graphql
   description: test swapi
 spec:
   type: service
   lifecycle: production
   owner: user:guest
   providesApis:
-    - starwars-graphql-test
+    - teststarwars-graphql
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: starwars-graphql-test
+  name: teststarwars-graphql
   description: SWAPI GraphQL Schema
   links:
     - url: https://github.com/graphql/swapi-graphql
