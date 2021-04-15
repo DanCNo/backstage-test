@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: starwars-graphql
+  name: starwars-graphql-test
   description: test swapi
 spec:
   type: service
@@ -13,7 +13,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: starwars-graphql
+  name: starwars-graphql-test
   description: SWAPI GraphQL Schema
   links:
     - url: https://github.com/graphql/swapi-graphql
