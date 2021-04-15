@@ -4,7 +4,7 @@ metadata:
   name: teststarwars-graphql
   description: test swapi
   annotations:
-    graphiql/livelink: 'https://swapi-graphql.netlify.app/.netlify/functions/index'
+    graphiql/livelink: https://swapi-graphql.netlify.app/.netlify/functions/index
 spec:
   type: service
   lifecycle: production
