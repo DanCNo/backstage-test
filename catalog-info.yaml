@@ -6,7 +6,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: "luke"
+  owner: user:guest
   providesApis:
     - starwars-graphql
 ---
